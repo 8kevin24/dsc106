@@ -12,15 +12,18 @@
     <nav>
         <a href="../index.html">Home</a>
         <a href="../projects/index.html">About</a>
-        <a href="index.html">Contact</a>
+        <a class="current" href="index.html">Contact</a>
         <a href="https://github.com/8kevin24" target="_blank">GitHub</a>
         <a href="../resume/index.html" target="_blank">Resume</a>
 
       </nav>
     <form action="mailto:kez016@ucsd.edu" method="POST" enctype="text/plain">
-        Email:<input name="email" type="email">
-        Subject:<input name="subject">
-        Body:<textarea name="body"></textarea>
+        <label for="email">Email:</label>
+        <input name="email" type="email">
+        <label for="subject">Subject:</label>
+        <input name="subject" >
+        <label for="body">Body:</label>
+        <textarea name="body"></textarea>
         <button>Submit</button>
     </form>
 </body>
