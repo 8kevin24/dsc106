@@ -34,5 +34,17 @@ let pages = [
       
       
   }
+  document.body.insertAdjacentHTML(
+    'afterbegin',
+    `
+      <label class="color-scheme">
+          Theme:
+          <select>
+              <Automatic>
+              <Dark>
+              <Light>
+          </select>
+      </label>`
+  );
   
   
