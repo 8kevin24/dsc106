@@ -40,13 +40,16 @@ let pages = [
       <label class="color-scheme">
           Theme:
           <select id="theme-selector">
-              <option value="automatic">Automatic</option>
+              <option value="automatic">Light Dark</option>
               <option value="dark">Dark</option>
               <option value="light">Light</option>
           </select>
       </label>
     `
   );
+if("colorScheme" in localStorage){
+document.documentElement.style.setProperty('color-scheme',localStorage.colorScheme)
+}
 
 select=document.querySelector(selector)
 select.addEventListener('input', function (event) {
@@ -55,8 +58,6 @@ select.addEventListener('input', function (event) {
     localStorage.colorScheme = event.target.value
   });
 
-  if("colorScheme" in localStorage){
-    
-  }
+
   
   
