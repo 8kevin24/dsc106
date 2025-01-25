@@ -34,24 +34,25 @@ let pages = [
       
       
   }
-  document.body.insertAdjacentHTML(
-    'afterbegin',
-    `
-      <label class="color-scheme">
-          Theme:
-          <select id="theme-selector">
-              <option value="automatic">Light Dark</option>
-              <option value="dark">Dark</option>
-              <option value="light">Light</option>
-          </select>
-      </label>
-    `
-  );
+document.body.insertAdjacentHTML(
+'afterbegin',
+`
+    <label class="color-scheme">
+        Theme:
+        <select id="theme-selector">
+            <option value="automatic">Light Dark</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+        </select>
+    </label>
+`
+);
+  
 if("colorScheme" in localStorage){
 document.documentElement.style.setProperty('color-scheme',localStorage.colorScheme)
 }
 
-select=document.querySelector("select")
+let select=document.querySelector("select")
 select.addEventListener('input', function (event) {
     console.log('color scheme changed to', event.target.value);
     document.documentElement.style.setProperty('color-scheme', event.target.value);
