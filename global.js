@@ -39,12 +39,20 @@ let pages = [
     `
       <label class="color-scheme">
           Theme:
-          <select>
-              <Automatic>
-              <Dark>
-              <Light>
+          <select id="theme-selector">
+              <option value="automatic">Automatic</option>
+              <option value="dark">Dark</option>
+              <option value="light">Light</option>
           </select>
-      </label>`
+      </label>
+    `
   );
+select=document.querySelector(selector)
+select.addEventListener('input', function (event) {
+    console.log('color scheme changed to', event.target.value);
+    document.documentElement.style.setProperty('color-scheme', event.target.value);
+    localStorage.colorScheme = event.target.value
+  });
+  
   
   
