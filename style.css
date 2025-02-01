@@ -222,3 +222,22 @@ h1 {
 .color-scheme select {
   padding: 0.2rem;    
 }
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+  grid-gap: 10px; /* Space between columns */
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 10px; /* Padding around the grid */
+  border-radius: 8px; /* Rounded corners for a smoother look */
+}
+
+#profile-stats dt {
+  font-weight: bold;
+  grid-row: 1; /* Place terms in the first row */
+  color: #333; /* Darker text for terms */
+}
+
+#profile-stats dd {
+  grid-row: 2; /* Place definitions in the second row */
+  color: #555; /* Slightly lighter text for definitions */
+}

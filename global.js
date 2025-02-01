@@ -1,5 +1,50 @@
 console.log('IT’S ALIVE!');
 
+export async function fetchJSON(url) {
+  try {
+      const response = await fetch(url);
+      console.log(response);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch projects: ${response.statusText}`);
+      }
+      const data = await response.json();
+      return data; 
+    
+
+  } catch (error) {
+      console.error('Error fetching or parsing JSON data:', error);
+  }
+}
+
+export async function fetchGithubData(username) {
+  console.log('FYUCK YOU')
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}
+
+export function renderProjects(project, containerElement, headingLevel = 'h2') {
+  const projectsCount = project.length;
+  const titleElement = document.querySelector('.projects-title');
+  if (titleElement) titleElement.textContent = `${projectsCount} Projects`;
+
+  containerElement.innerHTML = '';
+
+  project.forEach(p => {
+    const article = document.createElement('article');
+    const heading = document.createElement(headingLevel);
+    heading.textContent = p.title;
+    
+    article.appendChild(heading);
+    article.innerHTML += `
+      ${p.image ? `<img src="${p.image}" alt="${p.title}">` : '<div class="no-image">No image available</div>'}
+      <p>${p.description}</p>
+    `;
+    
+    containerElement.appendChild(article);
+  });
+}
+
+
+
 function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
 }
