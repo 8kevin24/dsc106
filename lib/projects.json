@@ -1,62 +1,72 @@
 [
-    {
-      "title": "Lorem ipsum dolor sit.",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, magnam labore fuga voluptate, veniam, itaque nostrum nihil vero modi aliquid similique in illo dolores aperiam inventore optio exercitationem incidunt sit!"
-    },
-    {
-      "title": "Suscipit impedit in neque?",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Nesciunt fuga iste eligendi. Neque dolorem, quibusdam voluptate eius debitis labore repellendus rerum itaque quae. Harum assumenda dolores ad suscipit molestiae sed culpa laudantium, tempora soluta, illum aliquam minima animi."
-    },
-    {
-      "title": "Assumenda dolorum error fuga!",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Facilis cupiditate nisi voluptatibus earum! Velit excepturi esse tempore, totam consectetur aliquam! Ea iure atque iste expedita illo asperiores reprehenderit numquam, illum autem esse ad culpa. Magni quasi neque tempore."
-    },
-    {
-      "title": "Nesciunt eaque qui praesentium!",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Reiciendis rerum nobis nisi saepe qui et neque molestiae eos culpa sunt, aliquam nemo repellat dolore hic fugit? Quidem excepturi reiciendis ea omnis in magnam nulla, quia quam non facilis."
-    },
-    {
-      "title": "Eos dolores quod fugit.",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Rem fuga voluptatum possimus accusantium, magni neque minima vitae ratione mollitia rerum eveniet deleniti aperiam quod et excepturi nam laborum esse, in iure quibusdam nulla culpa illo eaque! Veniam, earum."
-    },
-    {
-      "title": "Architecto incidunt doloribus laudantium!",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Necessitatibus quibusdam natus eum recusandae, sunt non corrupti perspiciatis optio at dolore. Accusantium officiis cumque rerum nisi! Nihil, sit perspiciatis deleniti dolorum impedit velit pariatur, debitis eveniet, nostrum voluptatem consectetur."
-    },
-    {
-      "title": "Doloremque velit veritatis quam.",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Hic nemo, nulla quis aperiam nobis error deleniti mollitia accusantium consequatur? Laborum, quod molestias veniam tempore delectus eaque veritatis voluptatum architecto vitae aliquid quaerat neque, ea inventore iste nisi doloremque!"
-    },
-    {
-      "title": "Iste harum quae quod!",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Repellat tenetur asperiores modi? Tempora, quia magni, dolores libero omnis, iste accusamus sit quam error doloremque impedit odio! Dolorem iste sed reprehenderit sunt sapiente nesciunt voluptas natus aut quod velit."
-    },
-    {
-      "title": "Ea nisi dignissimos molestiae!",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Perspiciatis similique rerum adipisci, distinctio asperiores commodi quia amet, ratione velit modi, beatae illum in? Porro culpa consequatur, placeat, laboriosam voluptates eos deserunt inventore possimus quisquam debitis aut incidunt doloribus."
-    },
-    {
-      "title": "Unde repellendus consequuntur tempora.",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Temporibus excepturi reiciendis quibusdam nisi odio nihil sequi amet accusantium aut assumenda blanditiis vero, ipsam cupiditate doloribus eius illo saepe, numquam esse sunt, natus illum aspernatur doloremque asperiores dolores! Numquam."
-    },
-    {
-      "title": "Eius illum quibusdam est!",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Adipisci at ipsam ea hic nemo, deleniti, quis aliquam expedita veniam quas asperiores doloremque, recusandae accusantium tempore fugiat omnis vitae amet. Ipsam hic eum provident neque debitis quas eius iusto?"
-    },
-    {
-      "title": "Ex enim dolores praesentium.",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Et natus molestias ipsum nulla quidem tempore vel hic iusto labore esse tenetur quos quo delectus quasi dignissimos saepe, suscipit error, incidunt fugiat praesentium. Accusamus voluptatum officiis omnis perferendis similique."
-    }
-  ]
+  {
+    "title": "Recipes Fat Analysis",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2024",
+    "description": "final project for dsc80 and it was lowkey fun!"
+  },
+  {
+    "title": "amateur n-gram machine learning model?",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2024",
+    "description": "this was awful top 1 worst experience of my life most traumatic event of college stayed up all night on this."
+  },
+  {
+    "title": "personal portfolio",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2025",
+    "description": "i hate frontend css js and html suck SO BAD"
+  },
+  {
+    "title": "knn spotify lyric analyzer",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2023",
+    "description": "jesus dsc10 was so long ago."
+  },
+  {
+    "title": "game of life",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2023",
+    "description": "this was my final project for apcs senior high school wow it seemed like yesterday"
+  },
+  {
+    "title": "newspaper title judger",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2024",
+    "description": "this was a desperate attempt to get something on my resume summer last year to try to get internships/scholarships. spoiler i didnt get anything"
+  },
+  {
+    "title": "minigit",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2024",
+    "description": "this was probably the most fun project i've done. easily the most enjoyable. also dsc30 w marina was lit as hell"
+  },
+  {
+    "title": "recursive scraper",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2024",
+
+    "description": "did this for my internship they lowkey think im stupid as hell."
+  },
+  {
+    "title": "higl127 final",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "year": "2024",
+    "description": "easily impressed history teacher by making github pages website w markdown for final project instead of google slides"
+  },
+  {
+    "title": "knn project again???",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "yeah ucsd really likes giving knn projects in its intro coding courses cuz you can say its fancy 'machine learning' but in reality you're just using pythagorean theorem."
+  },
+  {
+    "title": "shallow recommender",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "also did this for my internship shoutout to fran he lowkey the goat"
+  },
+  {
+    "title": "hours calculator",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "was 2 lazy to calculate my hours for internship by hand so i wrote a program to do it."
+  }
+]
