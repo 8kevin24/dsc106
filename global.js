@@ -17,7 +17,6 @@ export async function fetchJSON(url) {
 }
 
 export async function fetchGithubData(username) {
-  console.log('FYUCK YOU')
   return fetchJSON(`https://api.github.com/users/${username}`);
 }
 
@@ -37,6 +36,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
     article.innerHTML += `
       ${p.image ? `<img src="${p.image}" alt="${p.title}">` : '<div class="no-image">No image available</div>'}
       <p>${p.description}</p>
+      <p class="project-year">${'c, '+ p.year}</p>
     `;
     
     containerElement.appendChild(article);

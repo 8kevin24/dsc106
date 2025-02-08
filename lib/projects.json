@@ -26,7 +26,7 @@
   {
     "title": "game of life",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "year": "2023",
+    "year": "2022",
     "description": "this was my final project for apcs senior high school wow it seemed like yesterday"
   },
   {
@@ -57,16 +57,20 @@
   {
     "title": "knn project again???",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "yeah ucsd really likes giving knn projects in its intro coding courses cuz you can say its fancy 'machine learning' but in reality you're just using pythagorean theorem."
+    "description": "yeah ucsd really likes giving knn projects in its intro coding courses cuz you can say its fancy 'machine learning' but in reality you're just using pythagorean theorem.",
+    "year": "2023"
+
   },
   {
     "title": "shallow recommender",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "also did this for my internship shoutout to fran he lowkey the goat"
+    "description": "also did this for my internship shoutout to fran he lowkey the goat",
+    "year": "2025"
   },
   {
     "title": "hours calculator",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "was 2 lazy to calculate my hours for internship by hand so i wrote a program to do it."
+    "description": "was 2 lazy to calculate my hours for internship by hand so i wrote a program to do it.",
+    "year": "2025"
   }
 ]

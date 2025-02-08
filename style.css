@@ -68,6 +68,70 @@ form button{
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(15em, 1fr));
 }
+.project-year {
+  font-style: italic;
+  color: gray;
+  margin-top: 5px;
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+}
+.proj-container{
+  display: flex;
+}
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+.legend {
+  list-style: none;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr)); 
+  align-items: center; 
+  gap: 5px;
+  border: 2px solid #ccc; 
+  background-color: #f9f9f9; 
+  margin: 100px 100px 100px 20px;
+  flex:1;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center; /* Vertically align text and swatch */
+  gap: 8px; /* Space between text and swatch */
+  font-family: Baskerville, serif;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+
+}
+
+.swatch {
+  width: 16px;
+  height: 16px;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+.selected {
+  --color: oklch(83.55% 0.1 174) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+
  article{
    grid-template-rows: subgrid;
    grid-row: span 3; 
