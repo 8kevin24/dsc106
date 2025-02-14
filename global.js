@@ -54,7 +54,8 @@ let pages = [
     { url: 'projects/', title: 'Projects' },
     {url: 'contact/', title: 'Contacts'},
     {url: 'https://github.com/8kevin24', title: 'Github'},
-    {url: 'resume/', title: 'Resume'}
+    {url: 'resume/', title: 'Resume'},
+    {url: 'meta/',title:'Meta'}
   ];
   let nav = document.createElement('nav');
   document.body.prepend(nav);
