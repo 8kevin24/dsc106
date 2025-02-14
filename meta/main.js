@@ -210,7 +210,9 @@ function updateTooltipContent(commit) {
   
   const link = document.getElementById('commit-link');
   const date = document.getElementById('commit-date');
-
+  const author = document.getElementById('commit-author');
+  const time=document.getElementById('commit-time');
+  const linesEdited = document.getElementById('commit-lines');
   if (Object.keys(commit).length === 0) return;
 
   link.href = commit.url;
@@ -218,6 +220,10 @@ function updateTooltipContent(commit) {
   date.textContent = commit.datetime?.toLocaleString('en', {
     dateStyle: 'full',
   });
+  author.textContent = commit.author;
+  console.log(commit)
+  linesEdited.textContent = commit.totalLines;
+  time.textContent= commit.time;
 }
 
 function updateTooltipVisibility(isVisible) {
