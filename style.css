@@ -410,3 +410,11 @@ circle.selected {
   margin-left: 20px;
   color: #555;
 }
+.projects img {
+  width: 200px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevents oversized images */
+  display: block;
+  margin: 0 auto; /* Centers image */
+  object-fit: contain; /* Ensures proper scaling */
+}
