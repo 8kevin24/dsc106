@@ -72,5 +72,11 @@
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "was 2 lazy to calculate my hours for internship by hand so i wrote a program to do it.",
     "year": "2025"
+  },
+  {
+    "title": "tirewatchers",
+    "image": "../images/tirewatchers.png",
+    "description": "this was a cool interactive visualization of the bostom/cambridge area's bike stations/roads. proves that i am somewhat competent in javascript",
+    "year": "2025"
   }
 ]
