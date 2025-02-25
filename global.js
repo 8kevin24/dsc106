@@ -30,15 +30,27 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
   project.forEach(p => {
     const article = document.createElement('article');
     const heading = document.createElement(headingLevel);
-    heading.textContent = p.title;
     
+    if (p.url && p.url !== "none") {
+      const link = document.createElement('a');
+      link.href = p.url;
+      link.textContent = p.title;
+      link.target = "_blank"; // Open in new tab
+      link.classList.add("project-title-link");
+      heading.appendChild(link);
+    } else {
+      heading.textContent = p.title; // Just plain text if no URL
+    }
+
     article.appendChild(heading);
     article.innerHTML += `
       ${p.image ? `<img src="${p.image}" alt="${p.title}">` : '<div class="no-image">No image available</div>'}
       <p>${p.description}</p>
       <p class="project-year">${'c, '+ p.year}</p>
     `;
+
     
+
     containerElement.appendChild(article);
   });
 }
